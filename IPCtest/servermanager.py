@@ -3,7 +3,7 @@
 import cv2
 import time
 import numpy as np
-from multiprocessing.managers import SharedMemoryManager
+from managers import SharedMemoryManager
 from multiprocessing import shared_memory
 from functools import partial
 
@@ -11,8 +11,9 @@ from functools import partial
 class ImageManager(SharedMemoryManager):
     pass
 
-def getshm(shm):
-	return shm
+def getshm1(shm):
+	img = np.ndarray((700,700,3), dtype=np.uint8, buffer=shm.buf)
+	return img
 
 if __name__ == '__main__':
 
@@ -24,8 +25,9 @@ if __name__ == '__main__':
 	#shm = shared_memory.SharedMemory(name='aaa', create=True, size=img.nbytes)
 	#SharedMemoryManager.register('getSharedMemory', callable=lambda:shm)
 	shm = shared_memory.SharedMemory(name='uniquename', create=True, size=img.nbytes)
+	b = np.ndarray((700,700,3), dtype=np.uint8, buffer=shm.buf)
 	print(type(shm))
-	ImageManager.register('getSharedMemory', callable=partial(getshm, shm))
+	ImageManager.register('getSharedMemory', callable=partial(getshm1, shm))
 
 	smm = ImageManager(address=('127.0.0.1', 50000), authkey=b'abc')
 
@@ -34,15 +36,20 @@ if __name__ == '__main__':
 	#print(smm._number_of_objects())
 	#print(shm.__dict__)
 	# Now create a NumPy array backed by shared memory
-	b = np.ndarray(img.shape, dtype=img.dtype, buffer=shm.buf)
+	#b = np.ndarray(img.shape, dtype=img.dtype, buffer=shm.buf)
 	b[:] = img[:]  # Copy the original data into shared memory
 
 	print('server started - run client now')
 
 	#time.sleep(20)
 	input()
+	img = np.zeros((700,700,3), dtype=np.uint8)
 
+	b[:] = img[:]
+	input()
 	smm.shutdown()
+	shm.close()
+	shm.unlink()
 
 
 	print('server end')
