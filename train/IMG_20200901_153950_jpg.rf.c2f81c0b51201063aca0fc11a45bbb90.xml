@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_20200901_153950_jpg.rf.c2f81c0b51201063aca0fc11a45bbb90.jpg</filename>
+	<path>IMG_20200901_153950_jpg.rf.c2f81c0b51201063aca0fc11a45bbb90.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mancha (ferrugem)</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>363</xmin>
+			<xmax>385</xmax>
+			<ymin>416</ymin>
+			<ymax>443</ymax>
+		</bndbox>
+	</object>
+</annotation>

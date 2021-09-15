@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Mancal Schulz DRIVE</folder>
+	<filename>IMG_20200901_153719.jpg</filename>
+	<path>C:\Users\dougl\Documents\Yonface\Articfox\Labelmg\Mancal Schulz DRIVE\IMG_20200901_153719.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>buraco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1785</xmin>
+			<ymin>1309</ymin>
+			<xmax>1818</xmax>
+			<ymax>1357</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>buraco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1750</xmin>
+			<ymin>1376</ymin>
+			<xmax>1827</xmax>
+			<ymax>1476</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>buraco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1779</xmin>
+			<ymin>1567</ymin>
+			<xmax>1821</xmax>
+			<ymax>1605</ymax>
+		</bndbox>
+	</object>
+</annotation>

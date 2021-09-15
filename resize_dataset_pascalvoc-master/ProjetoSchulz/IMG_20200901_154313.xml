@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Mancal Schulz DRIVE</folder>
+	<filename>IMG_20200901_154313.jpg</filename>
+	<path>C:\Users\dougl\Documents\Yonface\Articfox\Labelmg\Mancal Schulz DRIVE\IMG_20200901_154313.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rechupe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2266</xmin>
+			<ymin>131</ymin>
+			<xmax>2324</xmax>
+			<ymax>209</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rechupe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2227</xmin>
+			<ymin>2725</ymin>
+			<xmax>2324</xmax>
+			<ymax>2812</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rechupe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>901</xmin>
+			<ymin>2728</ymin>
+			<xmax>947</xmax>
+			<ymax>2802</ymax>
+		</bndbox>
+	</object>
+</annotation>

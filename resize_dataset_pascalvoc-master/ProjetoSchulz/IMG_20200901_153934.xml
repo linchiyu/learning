@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Mancal Schulz DRIVE</folder>
+	<filename>IMG_20200901_153934.jpg</filename>
+	<path>C:\Users\dougl\Documents\Yonface\Articfox\Labelmg\Mancal Schulz DRIVE\IMG_20200901_153934.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3000</width>
+		<height>3000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mancha (ferrugem)</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1179</xmin>
+			<ymin>1628</ymin>
+			<xmax>1272</xmax>
+			<ymax>1738</ymax>
+		</bndbox>
+	</object>
+</annotation>

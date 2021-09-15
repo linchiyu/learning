@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_20200901_120914_jpg.rf.80f9923dd35c737932e18f4cc0732567.jpg</filename>
+	<path>IMG_20200901_120914_jpg.rf.80f9923dd35c737932e18f4cc0732567.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>buraco</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>600</xmin>
+			<xmax>636</xmax>
+			<ymin>332</ymin>
+			<ymax>372</ymax>
+		</bndbox>
+	</object>
+</annotation>

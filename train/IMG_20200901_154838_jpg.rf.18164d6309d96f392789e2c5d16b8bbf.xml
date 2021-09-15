@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>IMG_20200901_154838_jpg.rf.18164d6309d96f392789e2c5d16b8bbf.jpg</filename>
+	<path>IMG_20200901_154838_jpg.rf.18164d6309d96f392789e2c5d16b8bbf.jpg</path>
+	<source>
+		<database>roboflow.ai</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>1024</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>rechupe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>32</xmin>
+			<xmax>55</xmax>
+			<ymin>669</ymin>
+			<ymax>695</ymax>
+		</bndbox>
+	</object>
+</annotation>

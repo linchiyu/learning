@@ -11,7 +11,8 @@ from functools import partial
 class ImageManager(SharedMemoryManager):
     pass
 
-def getshm1(shm):
+def getshm1(shm, **kwargs):
+	#print(shm, kwargs)
 	img = np.ndarray((700,700,3), dtype=np.uint8, buffer=shm.buf)
 	return img
 
@@ -29,7 +30,8 @@ if __name__ == '__main__':
 	print(type(shm))
 	ImageManager.register('getSharedMemory', callable=partial(getshm1, shm))
 
-	smm = ImageManager(address=('127.0.0.1', 50000), authkey=b'abc')
+	#smm = ImageManager(address=('127.0.0.1', 50000), authkey=b'abc')
+	smm = ImageManager(address=('127.0.0.1', 50000), authkey=b'articfoxmemoryauthkey')
 
 	smm.start()
 

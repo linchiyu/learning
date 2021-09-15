@@ -1,0 +1,27 @@
+# Ignore everything
+*
+
+# Include
+!docker
+!docker/cuda
+!docker/cuda/*
+!docker/rpi
+!docker/rpi/*
+!docker/vaapi
+!docker/vaapi/*
+!src
+!src/*
+!src/lib
+!src/lib/*
+!src/lib/mqtt
+!src/lib/mqtt/*
+!.dockerignore
+!.gitignore
+!Dockerfile
+!LICENSE
+!README.md
+!requirements.txt
+
+# Force ignore
+docker/cuda/Dockerfile.vpf
+docker/cuda/Video_Codec_SDK_9.1.23.zip
